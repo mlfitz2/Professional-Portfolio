@@ -124,7 +124,7 @@ main {
 
 .portfolio-header {
     width: 100%;
-    margin: 1% 2%;
+    margin: 1% 5%;
     text-align: center;
     font-size: 1.5em;
 }
@@ -133,6 +133,7 @@ main {
     width: 40%;
 }
 
+/*First project should be bigger than the rest*/
 #project-1 {
     width: 80%;
 }
@@ -169,6 +170,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin-top: 2%;
+    border-top: solid 1vh var(--forest-green);
 }
 
 /*Adjustments for mobile devices*/
